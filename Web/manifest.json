@@ -1,13 +1,39 @@
 {
-　"short_name": "成大胸腔復健",
-　"name": "成大胸腔復健",
-　"icons": [{
-　　"src":"image_folder/Logo.png",
-　　"sizes": "192×192",
-　　"type": "image/png"
-　　}],
-　"start_url": "http://127.0.0.1:8887/",
-　"background_color": "#000",
-　"theme_color": "#536878",
-　"display": "standalone"
+  "short_name": "胸腔復健",
+  "name": "成大胸腔復健",
+  "icons": [
+    {
+     "src": "image_folder/Logo_92.png",
+     "sizes": "92×92",
+     "type": "image/png",
+     "purpose": "any"
+    },
+    {
+     "src": "image_folder/Logo_144.png",
+     "sizes": "144×144",
+     "type": "image/png",
+     "purpose": "maskable any"
+    },
+    {
+     "src": "image_folder/Logo_192.png",
+     "sizes": "192×192",
+     "type": "image/png",
+     "purpose": "any"
+    },
+    {
+     "src": "image_folder/Logo_256.png",
+     "sizes": "256×256",
+     "type": "image/png",
+     "purpose": "any"
+    },
+    {
+     "src": "image_folder/Logo_512.png",
+     "sizes": "512×512",
+     "type": "image/png",
+     "purpose": "any"
+    }],
+  "start_url": "file:///D:/NCKU/Study0000-0003-4006-5506/3D/Python/Web/index.html",
+  "background_color": "#000",
+  "theme_color": "#536878",
+  "display": "standalone"
 }

@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <!-- saved from url=(0065)file:///D:/NCKU/Study0000-0003-4006-5506/3D/Python/Web/index.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head><body><p>My <strong>web</strong>
+    <link rel="manifest" href="file:///D:/NCKU/Study0000-0003-4006-5506/3D/Python/Web/manifest.json" crossorigin="use-credentials">
+  </head>
+  <body>
+    <p>My <strong>web</strong>
       <link href="./index_files/style.css" rel="stylesheet" type="text/css">
-    </p>
-    
-    <title>胸腔復健</title>
-  
-  
+    </p>    
+    <title>胸腔復健</title>  
     <img src="./index_files/Figure_1.png" alt="My test image">
     <ul>
       <li>right lung</li>
       <li>left lung</li>
-    </ul>
-  
-</body></html>
+    </ul>  
+    <script>
+      if ('serviceWorker' in navigator){
+        console.log("Will serviceWorker.register?");
+        navigator.serviceWorker.register('service-worker.js').then(function(reg){
+          console.log("Yes it did.");
+        }).catch(function(err){
+          console.log("No it didn't. This happened: ", err)
+        });
+      }    
+</script>
+  </body></html>
