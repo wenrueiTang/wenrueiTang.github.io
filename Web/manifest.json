@@ -1,0 +1,13 @@
+{
+　"short_name": "成大胸腔復健",
+　"name": "成大胸腔復健",
+　"icons": [{
+　　"src":"image_folder/Logo.png",
+　　"sizes": "192×192",
+　　"type": "image/png"
+　　}],
+　"start_url": "http://127.0.0.1:8887/",
+　"background_color": "#000",
+　"theme_color": "#536878",
+　"display": "standalone"
+}
